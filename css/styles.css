@@ -12,6 +12,7 @@ body {
   color: #212121;
 }
 ul {
+  list-style: none;
   margin: 0px;
   padding: 0px;
 }
@@ -88,6 +89,14 @@ img {
 .navigation.current {
   color: var(--primary-touch-color);
 }
+.header-navigation.current::after {
+  content:'' ;
+  background-color: var(--primary-touch-color);
+  border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    display: block;
+} 
 .navigation {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -263,8 +272,31 @@ img {
   margin-left: 30px;
 }
 .company-picture {
+  
   list-style: none;
   display: flex;
+}
+.subjekt-picture {
+  position: relative;
+}
+.picture-tumb {
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+justify-content: center;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 25%;
+  color:var(--primary-button-text-color) ;
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+ 
 }
 /* команда */
 .item {
@@ -544,6 +576,7 @@ img {
   flex-wrap: wrap;
 }
 .list-items {
+ 
   border: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
@@ -559,8 +592,29 @@ img {
   margin-right: 0px;
 }
 .project-img {
+ 
   margin-bottom: 20px;
 }
+.tumb-portfolio {
+  position: relative;
+}
+.items-tumb {
+  display: flex;
+align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+justify-content: center;
+
+  color: var(--primary-button-text-color);
+  background-color: rgba(33, 150, 243, 0.9);
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+}
+
 .list-items:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
