@@ -67,7 +67,15 @@
         
         <div class="container">
           <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-          <button class="button-one" name="button">Заказать услугу</button>
+          <button data-modal-open class="button-one" name="button" >Заказать услугу</button>
+        </div>
+        <div data-modal class="backdrop is-hidden">
+                <div class="modal">
+                  <button data-modal-close class="modal-script" type="button"><svg class="svg-close" width="11px" height="11">
+                    <use href="./images/icons.svg#icon-close"></use></svg></button>
+                  </div>
+                  
+                </div>
         </div>
       </section>
 
@@ -392,5 +400,6 @@
         </address>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
