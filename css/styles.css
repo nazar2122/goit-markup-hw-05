@@ -121,11 +121,13 @@ img {
 }
 .navigation:focus,
 .navigation:hover {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   color: var(--primary-touch-color);
 }
 
 .mail-header:focus,
 .mail-header:hover {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   color: var(--primary-touch-color);
 }
 .mail-header {
@@ -150,6 +152,7 @@ img {
 
 .icon-mail:hover,
 .icon-mail:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   fill: currentColor;
 }
 
@@ -216,6 +219,7 @@ img {
 }
 
 .button-one:hover {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -258,6 +262,7 @@ img {
 
 .modal-script:hover,
 .modal-script:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   fill: var(--primary-touch-color);
 }
 .modal-script {
@@ -424,6 +429,7 @@ img {
 }
 .social-link:hover,
 .social-link:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   background-color: var(--primary-touch-color);
   fill: var(--primary-button-text-color);
 }
@@ -490,6 +496,7 @@ img {
 }
 .clients-list:hover,
 .clients-list:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   fill: var(--primary-touch-color);
   border-color: var(--primary-touch-color);
 }
@@ -531,6 +538,7 @@ img {
 }
 .map-googl:hover,
 .map-googl:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   color: var(--primary-touch-color);
 }
 .contakt {
@@ -544,6 +552,7 @@ img {
 }
 .contakt:hover,
 .contakt:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   color: var(--primary-touch-color);
 }
 
@@ -590,6 +599,7 @@ img {
 }
 .footer-link:hover,
 .footer-link:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   background-color: var(--primary-touch-color);
   fill: var(--primary-button-text-color);
 }
@@ -632,6 +642,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--primary-touch-color);
   color: var(--primary-button-text-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .item-images {
   padding-top: 94px;
@@ -654,6 +665,7 @@ img {
 
 .list-items:hover,
 .list-items:focus {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -669,6 +681,7 @@ img {
 
 .tumb-item:hover .items-tumb,
 .tumb-item:focus .items-tumb {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   transform: translateY(0);
 }
 
