@@ -80,6 +80,7 @@ img {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+
 .site-nav {
   align-items: center;
   display: flex;
@@ -91,6 +92,7 @@ img {
   margin-left: 50px;
 }
 .nav-link {
+  
   list-style: none;
   align-items: center;
   margin-left: 93px;
@@ -118,16 +120,18 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
 }
 .navigation:focus,
 .navigation:hover {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
   color: var(--primary-touch-color);
 }
 
 .mail-header:focus,
 .mail-header:hover {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
   color: var(--primary-touch-color);
 }
 .mail-header {
@@ -143,6 +147,7 @@ img {
   text-decoration: none;
   color: var(--primary-text-p-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .mail {
   list-style: none;
@@ -152,7 +157,7 @@ img {
 
 .icon-mail:hover,
 .icon-mail:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
   fill: currentColor;
 }
 
@@ -201,7 +206,7 @@ img {
 }
 /* кнопка 1 */
 .button-one {
-  
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   border-width: 0px;
   display: inline-block;
   padding: 10px 32px;
@@ -412,6 +417,7 @@ img {
 .social {
   display: flex;
   list-style: none;
+  
 }
 .social .social-item + .social-item {
   margin-left: 10px;
@@ -420,6 +426,7 @@ img {
   border-radius: 50%;
 }
 .social-link {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -430,7 +437,6 @@ img {
 }
 .social-link:hover,
 .social-link:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   background-color: var(--primary-touch-color);
   fill: var(--primary-button-text-color);
 }
@@ -491,13 +497,14 @@ img {
   align-items: center;
   justify-content: center;
   display: flex;
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .client-item .clients-image + .clients-image {
   margin-left: 30px;
 }
 .clients-list:hover,
 .clients-list:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
   fill: var(--primary-touch-color);
   border-color: var(--primary-touch-color);
 }
@@ -530,6 +537,7 @@ img {
 }
 
 .map-googl {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   color: var(--primary-button-text-color);
   font-style: normal;
   font-size: 14px;
@@ -539,10 +547,10 @@ img {
 }
 .map-googl:hover,
 .map-googl:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   color: var(--primary-touch-color);
 }
 .contakt {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -553,7 +561,7 @@ img {
 }
 .contakt:hover,
 .contakt:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
   color: var(--primary-touch-color);
 }
 
@@ -589,6 +597,7 @@ img {
   list-style: none;
 }
 .footer-link {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -600,7 +609,7 @@ img {
 }
 .footer-link:hover,
 .footer-link:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+ 
   background-color: var(--primary-touch-color);
   fill: var(--primary-button-text-color);
 }
@@ -623,6 +632,7 @@ img {
   margin-left: 8px;
 }
 .buttons {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   border-radius: 4px;
   padding: 6px 22px;
   display: inline-block;
@@ -643,7 +653,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--primary-touch-color);
   color: var(--primary-button-text-color);
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  
 }
 .item-images {
   padding-top: 94px;
@@ -657,6 +667,7 @@ img {
   flex-wrap: wrap;
 }
 .list-items {
+  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   cursor: pointer;
   border: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
@@ -666,7 +677,6 @@ img {
 
 .list-items:hover,
 .list-items:focus {
-  transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
